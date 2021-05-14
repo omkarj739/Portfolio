@@ -1,0 +1,257 @@
+.proficiency {
+    display: flex;
+    color: white;
+    padding: 2rem;
+}
+
+.proficiency_left {
+    width: 50%;
+}
+.proficiency_right{
+    width: 46%;
+    margin-top:4rem;
+}
+.proficiency_left .proficiency_title {
+    font-size: 4rem;
+    font-weight: 400;
+}
+
+.progressbar {
+    display: flex;
+    flex-direction: column;
+    padding: 1rem;
+}
+
+.progressbar h3 {
+    font-weight: 100;
+    font-size: 1.5rem;
+    padding: 3rem 0 1rem 0;
+}
+@media only screen and (max-device-width:280px) {
+    .proficiency {
+        display: flex;
+        flex-direction: column;
+        padding: 2rem;
+        text-align: center;
+    }
+    
+    .proficiency_left {
+        width: 100%;
+        margin-bottom: 2rem;
+    }
+
+    .proficiency_right{
+        width: 100%;
+        margin-bottom: 1rem;
+    }
+    .proficiency_title {
+        font-size: 2rem !important;
+        font-weight: 400;
+    }
+    
+    .progressbar {
+        display: flex;
+        flex-direction: column;
+        padding: 1rem;
+    }
+    
+    .progressbar h3 {
+        font-weight: 100;
+        font-size: 1rem;
+        padding: 3rem 0 1rem 0;
+    }   
+}
+@media only screen and (min-device-width:281px) and (max-device-width:320px){
+    .proficiency {
+        display: flex;
+        flex-direction: column;
+        color: white;
+        padding: 2rem;
+        text-align: center;
+    }
+    
+    .proficiency_left {
+        width: 100%;
+        margin: 0;
+        padding: 0;
+    }
+    .proficiency_right{
+        margin-top: 2rem;
+        width: 100%;
+    }
+     .proficiency_title {
+        font-size: 2rem !important;
+        font-weight: 400;
+    }
+    
+    .progressbar {
+        display: flex;
+        flex-direction: column;
+        padding: 1rem;
+    }
+    
+    .progressbar h3 {
+        font-weight: 100;
+        font-size: 1rem;
+        padding: 3rem 0 1rem 0;
+    }
+}
+@media only screen and (min-device-width:321px) and (max-device-width:480px){
+    .proficiency {
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        color: white;
+    }
+    
+    .proficiency_left {
+        width: 100%;
+    }
+    
+    .proficiency_right{
+        width: 100%;
+        margin-top: 2rem;
+    }
+    .proficiency_left .proficiency_title {
+        font-size: 2.5rem;
+        font-weight: 400;
+    }
+    
+    .progressbar {
+        display: flex;
+        flex-direction: column;
+        padding: 1rem;
+    }
+    
+    .progressbar h3 {
+        font-weight: 100;
+        font-size: 1.5rem;
+        padding: 3rem 0 1rem 0;
+    }
+}
+@media only screen and (min-device-width: 481px) and (max-device-width:812px) {
+    .proficiency {
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        color: white;
+        padding: 2rem;
+    }
+    
+    .proficiency_left {
+        width: 100%;
+    }
+    .proficiency_right{
+        text-align: center;
+        margin-top: 5rem;
+        width: 100%;
+    }
+     .proficiency_title {
+        font-size: 3rem;
+        font-weight: 400;
+    }
+    
+    .progressbar {
+        display: flex;
+        flex-direction: column;
+        /* padding: 1rem; */
+    }
+    
+    .progressbar h3 {
+        font-weight: 100;
+        font-size: 2rem;
+        padding: 3rem 0 1rem 0;
+    }
+}
+@media only screen and (min-device-width: 813px) and (max-device-width:1024px){
+    .proficiency {
+        display: flex;
+        color: white;
+        padding: 2rem;
+        text-align: center;
+    }
+    
+    .proficiency_left {
+        width: 50%;
+    }
+    .proficiency_right{
+        width: 46%;
+    }
+    .proficiency_left .proficiency_title {
+        font-size: 3rem;
+        font-weight: 400;
+    }
+    
+    .progressbar {
+        display: flex;
+        flex-direction: column;
+        padding: 1rem;
+    }
+    
+    .progressbar h3 {
+        font-weight: 100;
+        font-size: 1.5rem;
+        padding: 3rem 0 1rem 0;
+    }
+}
+@media only screen and (min-device-width: 1025px) and (max-device-width:1200px){
+    .proficiency {
+        display: flex;
+        color: white;
+        padding: 2rem;
+    }
+    
+    .proficiency_left {
+        width: 50%;
+    }
+    .proficiency_right{
+        width: 46%;
+    }
+    .proficiency_left .proficiency_title {
+        font-size: 4rem;
+        font-weight: 400;
+    }
+    
+    .progressbar {
+        display: flex;
+        flex-direction: column;
+        padding: 1rem;
+    }
+    
+    .progressbar h3 {
+        font-weight: 100;
+        font-size: 1.5rem;
+        padding: 3rem 0 1rem 0;
+    }
+}
+
+@media only screen and (min-device-width: 1201px) and (max-device-width:2000px){
+    .proficiency {
+        display: flex;
+        color: white;
+        padding: 2rem;
+    }
+    
+    .proficiency_left {
+        width: 50%;
+    }
+    .proficiency_right{
+        width: 46%;
+    }
+    .proficiency_left .proficiency_title {
+        font-size: 4rem;
+        font-weight: 400;
+    }
+    
+    .progressbar {
+        display: flex;
+        flex-direction: column;
+        padding: 1rem;
+    }
+    
+    .progressbar h3 {
+        font-weight: 100;
+        font-size: 1.5rem;
+        padding: 3rem 0 1rem 0;
+    } 
+}

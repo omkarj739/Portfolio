@@ -1,0 +1,309 @@
+.contact{
+    color:white;
+    margin-top: 2rem;
+    padding-left:2rem;
+    margin-bottom: 2rem;
+    letter-spacing: 1px;
+}
+h1{
+    font-size: 3.5rem;
+    font-weight: 400;
+}
+.contact_para{
+    font-size: 2rem;
+    color: gray;
+}
+.map{
+    padding: 0;
+    margin: 0;
+    font-size: 1.5rem;
+    color: gray;
+    opacity:0.6;
+}
+.icon{
+    display: flex;
+    width:25%;
+    margin-top:2rem;
+}
+.icon img{
+    width:50%;
+    padding:0;
+}
+.MuiSvgIcon-root {
+    margin-top: 2rem !important;
+    font-size: 2.5rem !important;
+    width:5% !important;
+}
+@media only screen and (max-device-width:280px){
+    .contact{
+        color:white;
+        padding: 0;
+        margin-top: 2rem;
+        margin-bottom: 2rem;
+        text-align: center;
+    }
+    h1{
+        font-size: 2rem !important;
+        font-weight: 400;
+    }
+    .contact_para{
+        font-size: 1rem;
+        color: gray;
+    }
+    .map{
+        padding: 0;
+        margin: 0;
+        font-size: 1rem !important;
+        color: gray;
+    }
+    .icon{
+    display: flex;
+    width:100%;
+    margin-top:2rem;
+}
+.icon .git img ,.icon .facebook img ,.icon .insta img {
+    width:40%;
+    padding:0;
+}
+    
+    .MuiSvgIcon-root {
+        font-size: 1rem !important;
+        width:10% !important;
+    }
+}
+@media only screen and (min-device-width:281px) and (max-device-width:320px){
+    .contact{
+        color:white;
+        padding: 0;
+        margin-top: 2rem;
+        margin-bottom: 2rem;
+        text-align: center;
+    }
+    h1{
+        font-size: 2rem !important;
+        font-weight: 400;
+    }
+    .contact_para{
+        font-size: 1rem;
+        color: gray;
+    }
+    .map{
+        padding: 0;
+        margin: 0;
+        font-size: 1rem !important;
+        color: gray;
+        opacity:0.6;
+    }
+    .icon{
+        display: flex;
+        width:100%;
+        margin-top:2rem;
+    }
+    .icon .git img ,.icon .facebook img ,.icon .insta img {
+        width:35%;
+        padding:0;
+    }
+    
+    .MuiSvgIcon-root {
+        font-size: 2rem !important;
+        width:15% !important;
+    }
+}
+@media only screen and (min-device-width:321px) and (max-device-width:480px){
+    .contact{
+        color:white;
+        padding: 0;
+        margin-top: 2rem;
+        margin-bottom: 2rem;
+        text-align: center;
+    }
+    h1{
+        font-size: 2rem !important;
+        font-weight: 400;
+    }
+    .contact_para{
+        font-size: 1rem;
+        color: gray;
+    }
+    .map{
+        padding: 0;
+        margin: 0;
+        font-size: 1rem !important;
+        color: gray;
+        opacity:0.6;
+    }
+    .icon{
+        display: flex;
+        width:100%;
+        margin-top:2rem;
+    }
+    .icon .git img ,.icon .facebook img ,.icon .insta img {
+        width:30%;
+        padding:0;
+    }
+    
+    .MuiSvgIcon-root {
+        font-size: 2rem !important;
+        width:15% !important;
+    }
+}
+@media only screen and (min-device-width: 481px) and (max-device-width:812px){
+    .contact{
+        color:white;
+        padding: 0;
+        margin-top: 2rem;
+        margin-bottom: 2rem;
+        text-align: center;
+    }
+    h1{
+        font-size: 3rem !important;
+        font-weight: 400;
+    }
+    .contact_para{
+        font-size: 2rem;
+        color: gray;
+    }
+    .map{
+        padding: 0;
+        margin: 0;
+        font-size: 2rem !important;
+        color: gray;
+        opacity:0.6;
+    }
+    .icon{
+        display: flex;
+        width:100%;
+        margin-top:2rem;
+    }
+    .icon .git img ,.icon .facebook img ,.icon .insta img {
+        width:25%;
+        padding:0;
+    }
+    
+    .MuiSvgIcon-root {
+        font-size: 2.5rem !important;
+        width:14% !important;
+    }
+}
+@media only screen and (min-device-width: 813px) and (max-device-width:1024px){
+    .contact{
+        color:white;
+        margin-top: 2rem;
+        padding-left:2rem;
+        margin-bottom: 2rem;
+        text-align: center;
+    }
+    h1{
+        font-size: 2.5rem;
+        font-weight: 400;
+    }
+    .contact_para{
+        font-size: 1.5rem;
+        color: gray;
+    }
+    .map{
+        padding: 0;
+        margin: 0;
+        font-size: 1.5rem;
+        color: gray;
+        opacity:0.6;
+    }
+    .icon{
+        display: flex;
+        justify-content: center;
+        width:100%;
+        margin-top:2rem;
+    }
+    .icon .git img ,.icon .facebook img ,.icon .insta img {
+        width:20%;
+        padding:0;
+    }
+    .icon .git p,.icon .facebook p ,.icon .insta p {
+        font-size: 1rem !important;
+    }
+    .MuiSvgIcon-root {
+        margin-top: 2rem !important;
+        font-size: 2.5rem !important;
+        width:5% !important;
+    }
+}
+@media only screen and (min-device-width: 1025px) and (max-device-width:1200px){
+    .contact{
+        color:white;
+        margin-top: 2rem;
+        padding-left:2rem;
+        margin-bottom: 2rem;
+    }
+    h1{
+        font-size: 2.5rem;
+        font-weight: 400;
+    }
+    .contact_para{
+        font-size: 1.5rem;
+        color: gray;
+    }
+    .map{
+        padding: 0;
+        margin: 0;
+        font-size: 1.5rem;
+        color: gray;
+        opacity:0.6;
+    }
+    .icon{
+        display: flex;
+        width:50%;
+        margin-top:2rem;
+    }
+    .icon .git img ,.icon .facebook img ,.icon .insta img {
+        width:20%;
+        padding:0;
+    }
+    .icon .git p,.icon .facebook p ,.icon .insta p {
+        font-size: 1rem !important;
+    }
+    .MuiSvgIcon-root {
+        margin-top: 2rem !important;
+        font-size: 2.5rem !important;
+        width:5% !important;
+    }
+}
+@media only screen and (min-device-width: 1201px) and (max-device-width:2000px){
+    .contact{
+        color:white;
+        margin-top: 2rem;
+        padding-left:2rem;
+        margin-bottom: 2rem;
+    }
+    h1{
+        font-size: 2.5rem;
+        font-weight: 400;
+    }
+    .contact_para{
+        font-size: 1.5rem;
+        color: gray;
+    }
+    .map{
+        padding: 0;
+        margin: 0;
+        font-size: 1.5rem;
+        color: gray;
+        opacity:0.6;
+    }
+    .icon{
+        display: flex;
+        width:30%;
+        margin-top:2rem;
+    }
+    .icon .git img ,.icon .facebook img ,.icon .insta img {
+        width:20%;
+        padding:0;
+    }
+    .icon .git p,.icon .facebook p ,.icon .insta p {
+        font-size: 1rem !important;
+    }
+    .MuiSvgIcon-root {
+        margin-top: 2rem !important;
+        font-size: 2.5rem !important;
+        width:5% !important;
+    }
+}

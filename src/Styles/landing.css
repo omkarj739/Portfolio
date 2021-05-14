@@ -1,0 +1,355 @@
+.Landing {
+    display: flex;
+    padding-left: 2rem;
+    color: white;
+    width: 100%;
+    margin-top: 2rem;
+}
+.landing_left{
+    width: 50%;
+    margin-top: 4rem;
+}
+.landing_right{
+    width:50%;
+}
+.landing_title {
+    font-size: 5rem;
+    font-weight: 400;
+}
+
+.landing_para {
+    color: #a8a2a2;
+    padding: 2rem 0 0 0;
+    font-size: 2rem;
+    font-weight: 100;
+}
+
+.button {
+    width: 9rem;
+    height: 3rem;
+    padding: 0.8rem;
+    border-radius: 5px;
+    margin-top:4rem;
+    font-size: 1rem;
+    cursor: pointer;
+    background-color: #55198b;
+    border: 1px solid #55198b;
+}
+
+.button:hover {
+    background-color: white;
+    border: 1px solid white;
+    color: #55198b;
+    cursor: pointer;
+}
+@media only screen and (max-width:280px)  {
+    .Landing {
+        padding-left: 2rem;
+        display: flex;
+        padding:0;
+        margin-top:3rem;
+        flex-direction: column;
+        justify-content: center;
+        text-align: center;
+    }
+    .landing_left{
+        width: 100%;
+        margin-top: 1rem;
+        justify-content: center;
+        padding-left:1rem;
+        padding-right: 1rem;
+    }
+    .landing_right{
+        width: 100%;
+    }
+    .landing_title{
+        font-size: 2rem;
+        padding:0;
+        margin:0;
+    }
+    .landing_para {
+        padding:0;
+        margin-top:2rem;
+        font-size: 1.3rem;
+        text-align: center;
+    }
+    .button {
+        width: 100%;
+    }
+}
+@media only screen and (min-device-width:281px) and (max-device-width:320px){
+    .Landing {
+        padding-left: 2rem;
+        display: flex;
+        flex-direction: column;
+        color: white;
+        margin-top: 2rem;
+    }
+    .landing_left{
+        width: 100%;
+    }
+    .landing_title {
+        font-size: 2rem;
+        font-weight: 400;
+    }
+    
+    .landing_para {
+        color: #a8a2a2;
+        padding-top:2rem;
+        font-size: 1rem;
+        font-weight: 100;
+    }
+    
+    .button {
+        text-align: center;
+        width: 100%;
+        height: auto;
+        padding: 0.8rem;
+        border-radius: 5px;
+        margin-top:2rem;
+        font-size: 1rem;
+        cursor: pointer;
+        background-color: #55198b;
+        border: 1px solid #55198b;
+    }
+    
+    .button:hover {
+        background-color: white;
+        border: 1px solid white;
+        color: #55198b;
+        cursor: pointer;
+    }
+    .landing_right{
+        width:100%;
+        margin-top:2rem;
+    }
+    
+}
+@media only screen and (min-device-width:321px) and (max-device-width:480px){
+    .Landing {
+        display: flex;
+        padding-left: 2rem;
+        flex-direction: column;
+        margin-top: 2rem;
+        text-align: center;
+    }
+    .landing_left{
+        width: 100%;
+    }
+    .landing_right{
+        width:100%;
+        margin-top: 2rem;
+    }
+    .landing_title {
+        font-size: 2rem;
+        font-weight: 400;
+    }
+    
+    .landing_para {
+        color: #a8a2a2;
+        padding: 2rem 0 0 0;
+        font-size: 1rem;
+        font-weight: 100;
+    }
+    
+    .button {
+        width:100%;
+        height: auto;
+        padding: 0.8rem;
+        border-radius: 5px;
+        margin-top:4rem;
+        font-size: 1rem;
+        cursor: pointer;
+        background-color: #55198b;
+        border: 1px solid #55198b;
+    }
+    
+    .button:hover {
+        background-color: white;
+        border: 1px solid white;
+        color: #55198b;
+        cursor: pointer;
+    }
+}
+@media only screen and (min-device-width: 481px) and (max-device-width:812px) {
+    .Landing {
+        padding-left: 2rem;
+        display: flex;
+        flex-direction: column;
+        color: white;
+        width: 100%;
+        margin-top: 2rem;
+    }
+    .landing_left{
+        width: 100%;
+    }
+    .landing_right{
+        width:100%;
+    }
+    .landing_title {
+        font-size: 3rem;
+        font-weight: 400;
+    }
+    
+    .landing_para {
+        color: #a8a2a2;
+        padding: 2rem 0 0 0;
+        font-size: 2rem;
+        font-weight: 100;
+    }
+    
+    .button {
+        width: 9rem;
+        height: 3rem;
+        padding: 0.8rem;
+        border-radius: 5px;
+        margin-top:4rem;
+        font-size: 1rem;
+        cursor: pointer;
+        background-color: #55198b;
+        border: 1px solid #55198b;
+    }
+    
+    .button:hover {
+        background-color: white;
+        border: 1px solid white;
+        color: #55198b;
+        cursor: pointer;
+    }
+}
+@media only screen and (min-device-width: 813px) and (max-device-width:1024px){
+    .Landing {
+        padding-left: 2rem;
+        display: flex;
+        color: white;
+        width: 100%;
+        margin-top: 2rem;
+    }
+    .landing_left{
+        width: 50%;
+    }
+    .landing_right{
+        width:50%;
+    }
+    .landing_title {
+        font-size: 3rem;
+        font-weight: 400;
+    }
+    
+    .landing_para {
+        color: #a8a2a2;
+        padding: 2rem 0 0 0;
+        font-size: 1.9rem;
+        font-weight: 100;
+    }
+    
+    .button {
+        width: 75%;
+        height: auto;
+        padding: 0.8rem;
+        border-radius: 5px;
+        margin-top:4rem;
+        font-size: 1rem;
+        cursor: pointer;
+        background-color: #55198b;
+        border: 1px solid #55198b;
+        text-align: center;
+    }
+    
+    .button:hover {
+        background-color: white;
+        border: 1px solid white;
+        color: #55198b;
+        cursor: pointer;
+    }
+}
+@media only screen and (min-device-width: 1025px) and (max-device-width:1200px){
+    .Landing {
+        padding-left: 2rem;
+        display: flex;
+        color: white;
+        width: 100%;
+        margin-top: 2rem;
+    }
+    .landing_left{
+        width: 50%;
+    }
+    .landing_right{
+        width:50%;
+    }
+    .landing_title {
+        font-size: 5rem;
+        font-weight: 400;
+    }
+    
+    .landing_para {
+        color: #a8a2a2;
+        padding: 2rem 0 0 0;
+        font-size: 2rem;
+        font-weight: 100;
+    }
+    
+    .button {
+        width: 9rem;
+        height: 3rem;
+        padding: 0.8rem;
+        border-radius: 5px;
+        margin-top:4rem;
+        font-size: 1rem;
+        cursor: pointer;
+        background-color: #55198b;
+        border: 1px solid #55198b;
+    }
+    
+    .button:hover {
+        background-color: white;
+        border: 1px solid white;
+        color: #55198b;
+        cursor: pointer;
+    }
+}
+@media only screen and (min-device-width: 1201px) and (max-device-width:2000px){
+    .Landing {
+        padding-left: 2rem;
+        display: flex;
+        color: white;
+        width: 100%;
+        margin-top: 2rem;
+    }
+    .landing_left{
+        width: 50%;
+    }
+    .landing_right{
+        width:50%;
+    }
+    .landing_title {
+        font-size: 5rem;
+        font-weight: 400;
+    }
+    
+    .landing_para {
+        color: #a8a2a2;
+        padding: 2rem 0 0 0;
+        font-size: 2rem;
+        font-weight: 100;
+    }
+    
+    .button {
+        width: 9rem;
+        height: 3rem;
+        padding: 0.8rem;
+        border-radius: 5px;
+        margin-top:4rem;
+        font-size: 1rem;
+        cursor: pointer;
+        background-color: #55198b;
+        border: 1px solid #55198b;
+    }
+    
+    .button:hover {
+        background-color: white;
+        border: 1px solid white;
+        color: #55198b;
+        cursor: pointer;
+    }
+}

@@ -1,0 +1,65 @@
+.container_work h1{
+    font-size:1.5rem !important;
+    color:white;
+}
+.container_work p{
+    font-size:1rem !important;
+}
+@media only screen and  (max-device-width:280px){
+    h1{
+        font-size:1rem !important;
+        color:white;
+    }
+    p{
+        font-size:0.8rem !important;
+    }
+    h5 span{
+        font-size: 1rem !important;
+    }
+}
+@media only screen and (min-device-width:281px) and (max-device-width:320px){
+    h1{
+        font-size:1.5rem !important;
+        color:white;
+    }
+    p{
+        font-size:1rem !important;
+    }
+}
+@media only screen and (min-device-width:321px) and (max-device-width:480px){
+    h1{
+        font-size:1.5rem !important;
+        color:white;
+    }
+    p{
+        font-size:1rem !important;
+    }
+}
+@media only screen and (min-device-width: 481px) and (max-device-width:812px){
+    .container_work h1{
+        font-size:2rem !important;
+        color:white;
+    }
+    p{
+        font-size:1.5rem !important;
+    }
+}
+
+@media only screen and (min-device-width: 813px) and (max-device-width:1024px){
+    h1{
+        font-size:2.5rem ;
+        color:white;
+    }
+    p{
+        font-size:2rem !important;
+    }
+}
+@media only screen and (min-device-width: 1025px) and (max-device-width:1200px){
+    h1{
+        font-size:2.5rem ;
+        color:white;
+    }
+    p{
+        font-size:2rem ;
+    }
+}
